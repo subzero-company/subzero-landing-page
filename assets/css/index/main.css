@@ -766,7 +766,7 @@ p {
 .hero-section {
   position: relative;
   z-index: 1;
-  padding: 160px 0 50px;
+  padding: 160px 0 150px;
   background-image: url("../../img/index/hero/hero-bg.svg");
   background-position: top center;
   background-repeat: no-repeat;
@@ -911,6 +911,41 @@ p {
     display: none;
   }
 }
+
+
+/*===========================
+      03.BRAND css 
+===========================*/
+@media (max-width: 767px) {
+  .brand-logo {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; } }
+
+.single-logo {
+  padding: 0 30px; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-logo {
+      padding: 0 15px; } }
+  @media (max-width: 767px) {
+    .single-logo {
+      padding: 0 15px; } }
+  @media (max-width: 767px) {
+    .single-logo {
+      width: 50%; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-logo {
+      width: 33.33%; } }
+  .single-logo img {
+    height: 30px;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; }
+  .single-logo:hover img {
+    opacity: 1; }
+
 
 /* ====== feature css ====== */
 @media (max-width: 767px) {
@@ -1080,13 +1115,13 @@ p {
 
 .about-section .about-img {
   position: relative;
-  z-index: 1;
+  z-index: -1;
   padding: 75px 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .about-section .about-img {
-    margin-bottom: 70px;
+    margin-bottom: 0px;
   }
 }
 
@@ -1145,7 +1180,7 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .about-section .about-img-2 {
-    margin-bottom: 70px;
+    margin-bottom: 0px;
   }
 }
 
