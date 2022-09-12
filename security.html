@@ -1,460 +1,412 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>SubZero - Software Access Management for Teams</title>
-    <meta
-      name="Description"
-      content="Ensure 100% transparency and utilization of all your company software subscriptions with SubZero. SubZero fits organizations of all sizes that utilize software and subscriptions to satisfy their business needs. SaaS management tool"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="slack-app-id" content="A036DQ4RWKZ"/> 
-    <meta property="og:image" content="assets/img/index/illustrations/dashboard_cropped.jpg"/>
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://subzero-company.com/security"/>
-    <meta property="og:title" content="SubZero - Software Access Management for Teams" />
-    <meta property="og:description" content="Pay for the software your employees actually use"/>
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="assets/img/index/favicon.png"
-    />
-    <!-- Place favicon.ico in the root directory -->
 
-    <!-- ======== CSS here ======== -->
-    <link rel="stylesheet" href="assets/css/index/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/index/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/index/animate.css" />
-    <link rel="stylesheet" href="assets/css/index/main.css" />
-  </head>
-  <body>
-    <!-- ======== preloader start ======== -->
-    <div class="preloader">
-      <div class="loader">
-        <div class="spinner">
-          <div class="spinner-container">
-            <div class="spinner-rotator">
-              <div class="spinner-left">
-                <div class="spinner-circle"></div>
-              </div>
-              <div class="spinner-right">
-                <div class="spinner-circle"></div>
-              </div>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>SubZero - Software Asset Management for Teams</title>
+  <meta name="Description"
+    content="Ensure 100% transparency and utilization of all your company software subscriptions with SubZero. SubZero fits organizations of all sizes that utilize software and subscriptions to satisfy their business needs. SaaS management tool" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="slack-app-id" content="A036DQ4RWKZ" />
+  <meta property="og:image" content="assets/img/index/illustrations/dashboard_cropped.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://subzero-company.com/security" />
+  <meta property="og:title" content="SubZero - Software Access Management for Teams" />
+  <meta property="og:description" content="Pay for the software your employees actually use" />
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/index/favicon.png" />
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- ======== CSS here ======== -->
+  <link rel="stylesheet" href="assets/css/index/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/index/lineicons.css" />
+  <link rel="stylesheet" href="assets/css/index/animate.css" />
+  <link rel="stylesheet" href="assets/css/index/main.css" />
+</head>
+
+<body>
+  <!-- ======== preloader start ======== -->
+  <div class="preloader">
+    <div class="loader">
+      <div class="spinner">
+        <div class="spinner-container">
+          <div class="spinner-rotator">
+            <div class="spinner-left">
+              <div class="spinner-circle"></div>
+            </div>
+            <div class="spinner-right">
+              <div class="spinner-circle"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- preloader end -->
+  </div>
+  <!-- preloader end -->
 
-    <!-- ======== header start ======== -->
-    <header class="header">
-      <div class="navbar-area">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-12">
-              <nav class="navbar navbar-expand-lg">
-                <a href="https://subzero-company.com/"><h3 class="navbar-brand" style="color: white">SubZero</h3></a>
-                <!-- <a class="navbar-brand" href="index.html">
+  <!-- ======== header start ======== -->
+  <header class="header">
+    <div class="navbar-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a href="https://subzero-company.com/">
+                <h3 class="navbar-brand" style="color: white">SubZero</h3>
+              </a>
+              <!-- <a class="navbar-brand" href="index.html">
                   <img src="assets/img/index/logo/logo.svg" alt="Logo" />
                 </a> -->
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                </button>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+              </button>
 
-                <div
-                  class="collapse navbar-collapse sub-menu-bar"
-                  id="navbarSupportedContent"
-                >
-                  <ul id="nav" class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                      <a class="page-scroll active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#features">Features</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                      <a class="page-scroll" href="#blog">Blog</a>
-                    </li> -->
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#why">Why SubZero</a>
-                    </li>
-                    
-                    <!-- <li class="nav-item">
-                      <a href="javascript:void(0)">Pricing</a>
-                    </li> -->
-                    <li class="nav-item">
-                      <a href="https://subzero.canny.io/feature-requests">
-                        Got Feedback? &#128499;
-                      </a>
-                    </li>
-                    
-
-                    <li class="nav-item">
-                      <a href="https://app.SubZero-company.com/"
-                        >Get Started Now &#128075;</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <!-- navbar collapse -->
-              </nav>
-              <!-- navbar -->
-            </div>
+              <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                <ul id="nav" class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="page-scroll active" href="https://subzero-company.com/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://app.SubZero-company.com/">Get Started Now &#128075;</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- navbar collapse -->
+            </nav>
+            <!-- navbar -->
           </div>
-          <!-- row -->
         </div>
-        <!-- container -->
+        <!-- row -->
       </div>
-      <!-- navbar area -->
-    </header>
-    <!-- ======== header end ======== -->
+      <!-- container -->
+    </div>
+    <!-- navbar area -->
+  </header>
+  <!-- ======== header end ======== -->
 
-    <!-- ======== hero-section start ======== -->
-    <section id="home" class="hero-section" padding-top="-30px">
-      <div class="container pb-10">
-        <div class="row position-relative">
-          <div class="">
-            <div class="hero-content">
-              <h1 class="wow fadeInUp" data-wow-delay=".4s">
-                SubZero Security and IT
+  <!-- ======== hero-section start ======== -->
+  <section id="home" class="hero-section-security">
+    <div class="container">
+      <div class="row position-relative">
+        <div class="hero-content">
+          <h1 class="wow fadeInUp" data-wow-delay=".4s">
+            SubZero Security and IT
+          </h1>
+          <div class="wow fadeInUp" data-wow-delay=".6s">
+            <p>
+              Below you will find security measures implemented across SubZero
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======== hero-section end ======== -->
+
+  <!-- ======== IT-security-brief-section start ======== -->
+  <section id="ITsecurity" class="about-security-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="">
+          <div class="about-content">
+            <div class="section-title mb-30 mt-50">
+              <h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                IT Security Brief
               </h1>
-              <div class="wow fadeInUp" data-wow-delay=".6s">
-                <p>
-                 Below you will find security measures implemented across SubZero
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  <i>Updated on the 12th of September 2022</i>
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  SubZero is an insight and analytics tool helping
+                  businesses of all sizes and industries reduce costs
+                  of unused subscriptions and licenses.
+                  Through automatic processes and advanced logic
+                  bots gather and analyze usage of licenses in a company. This
+                  data is then used to suggest removal of idle software use.
+                </p>
+              </div>
+            </div>
+            <div class="section-title mb-30">
+              <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s" border-top="5px;">
+                Security for businesses
+              </h2>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  SubZero uses end-to-end, industry-standard encryption in transit to end-users
+                  and internally between data centers and internal/external services. Data is always encrypted at rest.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  We use multiple backup strategies for various parts of the platform. Backups are always
+                  encrypted and stored, and we support TLS 1.2 or higher.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  You do not need to download anything to use SubZero, as it is a stand-alone website with no inbound
+                  connections. No installs, plugins, or integrations with internal systems are required to use SubZero.
+                  Optional integrations with Slack is available.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  The SubZero platform is accessed from subzero-company.com.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  SubZero follows a number of policies to implement a safe and secure 
+                  experience for users and to comply with relevant rules and regulations. 
+                  Policies are reviewed on an annual basis to ensure they are kept
+                  up to date, and changes are approved by senior management.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ======== hero-section end ======== -->
+    </div>
+  </section>
+  <!-- ======== IT-security-brief-section end ======== -->
 
-    <!-- ======== IT-security-brief-section start ======== -->
-    <section id="ITsecurity" class="about-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="">
-            <div class="about-content">
+  <!-- ======== User-management-section start ======== -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="">
+          <div class="about-content">
+            <div class="section-title mb-30">
+              <h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s" border-top="5px;">
+                User management
+              </h1>
               <div class="section-title mb-30">
-                <h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
-                  IT Security Brief
-                </h1>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                  <i>Updated on the 29th of August 2022</i>
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                  SubZero is the world's leading game-based learning platform. 
-                  Companies of all sizes use our platform to boost engagement and learning outcomes 
-                  in everything from training and events to presentations and meetings.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Organizations use SubZero's best-in-class features to create a 
-                    culture of continuous learning. Through interactive question types, collaboration tools, 
-                    and powerful reports, L&D professionals are able to build an engaging, 
-                    organization-wide learning experience that boosts training outcomes and simplifies knowledge sharing.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    What's more, thanks to enhanced user management tools, 
-                    it's never been easier and more secure for IT admins to roll out SubZero across an organization.
-                  </p>
-                </div>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  <i>Updated on the 12th of September 2022</i>
+                </p>
               </div>
               <div class="section-title mb-30">
-                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s" border-top="5px;">
-                  Security for enterprises
-                </h2>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    SubZero uses end-to-end, industry-standard encryption in transit to end-users 
-                    and internally between data centers and internal/external services. Data is always encrypted at rest.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    We use multiple backup strategies for various parts of the platform. Backups are always 
-                    encrypted and stored at a different site. Backups are kept for up to six months.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Our public certificates are obtained from an acknowledged certification authority, and we 
-                    support TLS 1.2 or higher. What's more, the SubZero platform is SOC2 Type 2 compliant and 
-                    ISO 27001 certified. We also run continuous penetration tests with an external party. A yearly 
-                    report is available for enterprise customers.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    You do not need to download anything to use SubZero, as it is a stand-alone website with no inbound connections. 
-                    No installs, plugins, and integrations with internal systems are required to use SubZero. 
-                    Optional integrations with Microsoft Teams and Zoom are available.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    The SubZero platform is accessed from kahoot.com, while participants with no account can join games at kahoot.it. 
-                    For an enhanced user experience, we recommend downloading the SubZero app on iOS or Android.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    oot! follows a number of policies to implement a safe and secure experience for users of all ages and to comply 
-                    with relevant rules and regulations. Policies are reviewed on an annual basis to ensure they are kept up to date, 
-                    and changes are approved by senior management.
-                  </p>
-                </div>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  SubZero offers enhanced security with single sign-on (SSO) through Firebase integrations.
+                  We currently support Google and Microsoft. It is also possible to log in using standard email and
+                  password.
+                </p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======== IT-security-brief-section end ======== -->
-
-    <!-- ======== User-management-section start ======== -->
-    <section id="about" class="about-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="">
-            <div class="about-content">
               <div class="section-title mb-30">
-                <h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s" border-top="5px;">
-                  User management
-                </h1>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                  <i>Updated on the 29th of August 2022</i>
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Enjoy seamless user management and enhanced security with single sign-on (SSO). 
-                    Our SSO supports SAML 2.0 and OpenID Connect 2.0 SSO and is available with SubZero 360 enterprise plans. 
-                    We currently support Google, Apple, and Microsoft. For enterprise customers, we also support federated logins. 
-                    We are happy to provide you with further documentation on setting up SSO with SubZero.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    You can also set levels of access with four user roles, which help to simplify and streamline using SubZero at scale. 
-                    Here's an overview of the varying levels of access each user role enjoys in an organization's shared space:
-                  </p>
-                </div>
-                <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  You can also set levels of access with two user roles, which help to simplify and streamline using
+                  SubZero at scale.
+                  Here's an overview of the varying levels of access each user role enjoys in an organization's shared
+                  space:
+                </p>
+              </div>
+              <!-- <div class="section-title mb-30">
                   <p class="wow fadeInUp" data-wow-delay=".4s">
                     Owner: The owner has the highest level of access. Only they can access and manage billing matters; add more licenses; 
                     assign admin privileges; view and download invoices; and upgrade, downgrade, or cancel a subscription.
                   </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Admin: An admin can access all features and functionality, except for permissions reserved for the owner. 
-                    They can invite and remove members from the team (based on the number of licenses set by the owner), 
-                    set user roles; create and edit org groups; change the team's name and logo; and access any kahoot in the shared team space.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Member: This is the default role during onboarding. Members can access every section of the platform, but they cannot extend 
-                    invitations or purchase licenses. They can edit org groups; host, assign, and edit any kahoot in the shared team space; 
-                    and view advanced visual reports.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
+                </div> -->
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  Admin: An admin can access all features and functionality.
+                  They can invite and remove members from the team,
+                  set user roles, create and edit groups and access any part of the solution.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  User: This is the default role during onboarding of employees by the Admin. Users can access the
+                  "Catalog" of the platform, but they cannot extend
+                  invitations or assign roles. They can see team subsciptions and their own subscriptions, as well as
+                  request new subscriptions for themselves.
+                </p>
+              </div>
+              <!-- <div class="section-title mb-30">
                   <p class="wow fadeInUp" data-wow-delay=".4s">
                     Limited member: A limited member does not have access to all the organization's kahoots or shared space. 
                     They can be invited to org groups and have their own folder within the shared space. 
                     They can host, assign, and edit kahoots shared with them but can only see reports of their own kahoots.
                   </p>
-                </div>
-              </div>
+                </div> -->
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ======== User-management-section end ======== -->
+    </div>
+  </section>
+  <!-- ======== User-management-section end ======== -->
 
 
-    <!-- ======== security-measures-section start ======== -->
-    <section id="about" class="about-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="">
-            <div class="about-content">
+  <!-- ======== security-measures-section start ======== -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="">
+          <div class="about-content">
+            <div class="section-title mb-30">
+              <h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                Security Measures
+              </h1>
               <div class="section-title mb-30">
-                <h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
-                  Security Measures
-                </h1>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                  <i>Updated on the 29th of August 2022</i>
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    SubZero recognizes Customer information and data as the most critical aspect and 
-                    important success factor in our business.  Having our Customers trust in our handling 
-                    of their data is crucial to drive SubZero forward as the leading learning platform vendor.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    To ensure the data is secure we at SubZero have implemented a set of safeguards and processes 
-                    covering all parts of the data journey. In addition, with new features and opportunities in our 
-                    learning platform continuously being added, we are driven by clear policies, principles and 
-                    procedures to ensure data stays secure.  
-                  </p>
-                </div>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  <i>Updated on the 12th of September 2022</i>
+                </p>
               </div>
               <div class="section-title mb-30">
-                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s" border-top="5px;">
-                  Security Controls
-                </h2>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    SubZero have implemented and maintains the following security controls for customer and user data, 
-                    consistent with globally cloud service provider industry best practices, including:
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Controls, Policies & Procedures.  Appropriate technical and administrative controls, 
-                    and organizational policies and procedures.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Named person in the role as a dedicated Chief information security officer (CISO) 
-                    with focus on security in all areas of the SubZero business.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Access Authorization.  Access controls for provisioning users, which shall include 
-                    providing Customers mechanism to view Customer users and their access privileges for licensed users.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Logging.  System and application logging where technically possible. SubZero retains 
-                    logs for a maximum one (1) month, verify such logs periodically for completeness.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Malicious code and/or software. Malware prevention software (e.g. antivirus) is implemented on infrastructure 
-                    where applicable.  Using SubZero does not demand any Customer hardware installment.  
-                    Users can choose to install App on mobile devices.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    System Security. System and IT security controls at SubZero follows industry best practices, including: 
-                    <br>(i) A high-level diagram, which will be provided to Customers upon request; 
-                    <br>(ii) SubZero use a mix of industry standard cloud and software firewalls to dynamically limit external and 
-                    internal traffic between our services; 
-                    <br>(iii) A program for evaluating security patches and implementing patches using a formal change process within defined time limits; 
-                    <br>(iv) SubZero Runs continuous penetration testing by an independent third party, with a detailed written report issued annually by 
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  SubZero recognizes Customer information and data as the most critical aspect and
+                  important success factor in our business. Having our Customers trust in our handling
+                  of their data is crucial to drive SubZero forward as a secure analytics platform.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  To ensure the data is secure we at SubZero have implemented a set of safeguards and processes
+                  covering all parts of the data journey. In addition, with new features and opportunities in our
+                  analytics platform continuously being added, we are driven by clear policies, principles and
+                  procedures to ensure data stays secure.
+                </p>
+              </div>
+            </div>
+            <div class="section-title mb-30">
+              <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s" border-top="5px;">
+                Security Controls
+              </h2>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  SubZero have implemented and maintains the following security controls for customer and user data,
+                  consistent with globally cloud service provider industry best practices, including:
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  1. Controls, Policies & Procedures: Appropriate technical and administrative controls,
+                  and organizational policies and procedures.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  2. Access Authorization: Access controls for provisioning users, which shall include
+                  providing Customers mechanism to view Customer users and their access privileges for licensed users.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  3. Logging. System and application logging where technically possible. SubZero retains
+                  logs for a maximum one (1) month, verify such logs periodically for completeness.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  4. Malicious code and/or software. Malware prevention software (e.g. antivirus) is implemented on
+                  infrastructure
+                  where applicable. Using SubZero does not demand any Customer hardware installment.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  5. System Security. System and IT security controls at SubZero follows industry best practices,
+                  including:
+                  <br>(i) A high-level diagram, which will be provided to Customers upon request;
+                  <br>(ii) SubZero use a mix of industry standard cloud and software firewalls to dynamically limit
+                  external and
+                  internal traffic between our services;
+                  <br>(iii) A program for evaluating security patches and implementing patches using a formal change
+                  process within defined time limits;
+                  <!-- <br>(iv) SubZero runs continuous penetration testing by an independent third party, with a detailed written report issued annually by 
                     such third party and provided to Customers upon request; 
-                    <br>(v) Documentation of identified vulnerabilities ranked based on risk severity, and corrective action according to such rank.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Asset Management.  An asset management policy is kept current, including asset classification (e.g., information, software, hardware).
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    SubZero runs regularly cross company Risk Assessments to ensure potential risks are identified and managed.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    A Password policy and controls are implemented to protect data, 
-                    including complexity requirements and multi factor authentication where available.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
+                    <br>(v) Documentation of identified vulnerabilities ranked based on risk severity, and corrective action according to such rank. -->
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  6. Asset Management: An asset management policy is kept current, including asset classification (e.g.,
+                  information, software, hardware).
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  7. SubZero runs regularly cross company Risk Assessments to ensure potential risks are identified and
+                  managed.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  8. A Password policy and controls are implemented to protect data,
+                  including complexity requirements and multi factor authentication where available.
+                </p>
+              </div>
+              <!-- <div class="section-title mb-30">
                   <p class="wow fadeInUp" data-wow-delay=".4s">
                     SubZero uses sub-processors to strengthen the scalability. All sub-processors hold the highest level of security and have current 
                     certifications for, among others, ISO27001 and SOC2 Type 2. A list of sub-processors is attached in Annex A.
                   </p>
-                </div>
+                </div> -->
+            </div>
+            <div class="section-title mb-30">
+              <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s" border-top="5px;">
+                Data Security
+              </h2>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  SubZero have a strong commitment to our Customers and users data. Compliance with the GDPR is a top
+                  priority for SubZero and our customers.
+                  The GDPR aims to strengthen personal data protection in Europe, and impacts the way we all do
+                  business. With Cloud, taking advantage of
+                  the global market is important to SubZero, delivering an analytics platform to all. SubZero is
+                  diligent with its use of sub-processors,
+                  and never makes transfers outside the Europe/EEA without having appropriate safeguards in place. This
+                  may, where required, include additional safety measures.
+                </p>
               </div>
               <div class="section-title mb-30">
-                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s" border-top="5px;">
-                  Data Security
-                </h2>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    SubZero have a strong commitment to our Customers and users data. Compliance with the GDPR is a top priority for SubZero and our customers. 
-                    The GDPR aims to strengthen personal data protection in Europe, and impacts the way we all do business.  With Cloud, taking advantage of 
-                    the global market is important to SubZero, delivering a learning platform to all.  SubZero is diligent with its use of sub-processors, 
-                    and never makes transfers outside the Europe/EEA without having appropriate safeguards in place. This may, where required, include additional safety measures.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    SubZero will handle our Customers and Users data securely, and consistent.  To ensure this is a cross company focus, 
-                    SubZero employs a dedicated person that is responsible for data protection.  
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Encryption. SubZero have implemented encryption on all Customer and user data.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    At Rest: Customer data only resides in the production environment encrypted 
-                    with industry best practices (currently AES-256 or similar).
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    In Transit: All network communication uses TLS v1.2 or higher. Qualys’ SSL Labs scored our SSL implementation as “A+” on their SSL Server test.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Data availability. SubZero runs multiple live data stores for availability
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Backups. SubZero runs continuous backup processes to ensure data and information consistency with highest standards. 
-                    Testing of the backups is done regularly.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Testing. SubZero never uses real Customer data in our development environment.
-                  </p>
-                </div>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  1. SubZero will handle our Customers and Users data securely, and consistent. To ensure this is a
+                  cross company focus,
+                  SubZero employs a dedicated person that is responsible for data protection.
+                </p>
               </div>
               <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  2. Encryption: SubZero have implemented encryption on all Customer and user data.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  3. At Rest: Customer data only resides in the production environment encrypted
+                  with industry best practices (Cockreach DB).
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  4. In Transit: All network communication uses TLS v1.2 or higher.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  5. Data availability: SubZero runs multiple live data stores for availability.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  6. Backups: SubZero runs continuous backup processes to ensure data and information consistency with
+                  highest standards.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  7. Testing: SubZero never uses real Customer data in our development environment.
+                </p>
+              </div>
+            </div>
+            <!-- <div class="section-title mb-30">
                 <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s" border-top="5px;">
                   Operational Security
                 </h2>
@@ -467,7 +419,7 @@
                 </div>
                 <div class="section-title mb-30">
                   <p class="wow fadeInUp" data-wow-delay=".4s">
-                    A Business Continuity and Disaster Recovery policy and plans.  These are tested on a regular basis. 
+                    1. A Business Continuity and Disaster Recovery policy and plans.  These are tested on a regular basis. 
                     The plans include infrastructure and applications used to host Customer Information and provide Services to our Customers. 
                   </p>
                 </div>
@@ -488,98 +440,93 @@
                     The service is expected to be available continuously.
                   </p>
                 </div>
+              </div> -->
+            <div class="section-title mb-30">
+              <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s" border-top="5px;">
+                People Security
+              </h2>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  To ensure SubZero deliver on Customer expectation on quality,
+                  security, and privacy, SubZero have enforced controls on employee level
+                </p>
               </div>
               <div class="section-title mb-30">
-                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s" border-top="5px;">
-                  People Security
-                </h2>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    To ensure SubZero deliver on Customer expectation on quality, 
-                    security, and privacy, SubZero have enforced controls on employee level
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    All employees are required to secure their equipment following the 
-                    Information security policy, including antivirus, encryption, and MFA. 
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    We run background checks and sign confidentiality agreements with all employees according to applicable laws. 
-                    We also train them in Information Security and Secure Development Practices.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    For SubZero inclusion, equality, respect and honesty is important in everything we do, 
-                    and conduct regular training in our policies, including:
-                    <br> Inclusion and Accessibility Policy
-                    <br> Anti-bribery & Anti-corruption Policy
-                    <br> Anti-Slavery & Anti-Child Labor Policy
-                    <br> Gender Equality & Anti-discrimination Policy
-                    <br> Whistleblowing policy 
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    Systems access control. Employee's level of access is determined by the job position. 
-                    Access reviews are performed periodically, and access is immediately removed if no longer necessary. 
-                    SubZero enforces the least privilege principle.  
-                  </p>
-                </div>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  1. All employees are required to secure their equipment following the
+                  Information security policy, including antivirus, encryption, and MFA.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  2. We run background checks and sign confidentiality agreements with all employees according to
+                  applicable laws.
+                  We also train them in Information Security and Secure Development Practices.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  3. For SubZero inclusion, equality, respect and honesty is important in everything we do,
+                  and conduct regular training in our policies, including:
+                  <br> a) Inclusion and Accessibility Policy
+                  <br> b) Anti-bribery & Anti-corruption Policy
+                  <br> c) Anti-Slavery & Anti-Child Labor Policy
+                  <br> d) Gender Equality & Anti-discrimination Policy
+                  <br> e) Whistleblowing policy
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  4. Systems access control. Employee's level of access is determined by the job position.
+                  Access reviews are performed periodically, and access is immediately removed if no longer necessary.
+                  SubZero enforces the least priviledge principle.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ======== security-measures-section end ======== -->
+    </div>
+  </section>
+  <!-- ======== security-measures-section end ======== -->
 
 
 
-    <!-- ======== IT-security-brief-section start ======== -->
-    <section id="ITsecurity" class="about-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="">
-            <div class="about-content">
+  <!-- ======== IT-security-brief-section start ======== -->
+  <section id="ITsecurity" class="about-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="">
+          <div class="about-content">
+            <div class="section-title mb-30">
+              <h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                Hosting Providers
+              </h1>
               <div class="section-title mb-30">
-                <h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
-                  Hosting Providers
-                </h1>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                  <i>Updated on the 29th of August 2022</i>
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    SubZero uses hosting providers for some of the operations required to 
-                    provide services for our users. For example, we rely on external hosting 
-                    providers with servers in multiple regions to provide a seamless 
-                    experience for our global community.
-                  </p>
-                </div>
-                <div class="section-title mb-30">
-                  <p class="wow fadeInUp" data-wow-delay=".4s">
-                    SubZero´s cloud- and hosting services have data centers in the EU, 
-                    Canada, Australia and the USA. Personal data processed by Kahoot on 
-                    behalf of our customers is processed on servers in the EU and Canada only. 
-                    No personal data is hosted by Kahoot on behalf of our customers on data 
-                    centers located in Australia or the USA.
-                  </p>
-                </div>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  <i>Updated on the 12th of September 2022</i>
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  SubZero uses hosting providers for some of the operations required to
+                  provide services for our users. For example, we rely on external hosting
+                  providers with servers in multiple regions to provide a seamless
+                  experience for our community.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  SubZero's cloud- and hosting services have data centers in the EU. Personal data processed by SubZero
+                  on
+                  behalf of our customers is processed only on servers in the EU.
+                </p>
+              </div>
               <div class="section-title mb-30">
                 <div class="order-first order-lg-last">
                   <div class="about-img-2">
-                    <img
-                      src="assets/img/index/illustrations/architecture.png"
-                      alt=""
-                      class="w-100"
-                      style="border-radius: 5px"
-                    />
+                    <img src="assets/img/index/illustrations/architecture.png" alt="" class="w-100"
+                      style="border-radius: 5px" />
                   </div>
                 </div>
               </div>
@@ -587,52 +534,52 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- ======== IT-security-brief-section end ======== -->
+  </section>
+  <!-- ======== IT-security-brief-section end ======== -->
 
 
 
-    <!-- ======== footer start ======== -->
-    <footer class="footer">
-      <div class="container">
-        <div class="widget-wrapper">
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="footer-widget">
-                <div class="logo mb-30">
-                  <a href="index.html">
-                    <h3 class="navbar-brand" style="color: white">SubZero</h3>
-                  </a>
-                </div>
-                <p class="desc mb-30 text-white">
-                  Smarter Software Management Starts with SubZero
-                </p>
-                <ul class="socials">
-                  <li>
-                    <a>
-                      <i class="lni lni-facebook-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a>
-                      <i class="lni lni-twitter-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a>
-                      <i class="lni lni-instagram-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a>
-                      <i class="lni lni-linkedin-original"></i>
-                    </a>
-                  </li>
-                </ul>
+  <!-- ======== footer start ======== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="widget-wrapper">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <div class="logo mb-30">
+                <a href="index.html">
+                  <h3 class="navbar-brand" style="color: white">SubZero</h3>
+                </a>
               </div>
+              <p class="desc mb-30 text-white">
+                Smarter Software Management Starts with SubZero
+              </p>
+              <ul class="socials">
+                <li>
+                  <a>
+                    <i class="lni lni-facebook-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <i class="lni lni-twitter-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <i class="lni lni-instagram-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <i class="lni lni-linkedin-original"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
+          </div>
 
-            <!-- <div class="col-xl-2 col-lg-2 col-md-6">
+          <!-- <div class="col-xl-2 col-lg-2 col-md-6">
               <div class="footer-widget">
                 <h3>General</h3>
                 <ul class="links">
@@ -642,46 +589,46 @@
               </div>
             </div> -->
 
-            <div class="col-xl-3 col-lg-3 col-md-6">
-              <div class="footer-widget">
-                <h3>General</h3>
-                <ul class="links">
-                  <li>
-                    <a
-                      href="https://docs.google.com/document/d/13syzHe60EK4fIFnjwRjgyynsu6smLvcfedIE6Hrches/edit"
-                      >Terms & Conditions</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://docs.google.com/document/d/13syzHe60EK4fIFnjwRjgyynsu6smLvcfedIE6Hrches/edit"
-                      >Privacy policy</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-8 mx-auto text-center mt-1" style="color: white">
-              <a>
-                Copyright ©
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-                SubZero
-              </a>
+          <div class="col-xl-3 col-lg-3 col-md-6">
+            <div class="footer-widget">
+              <h3>General</h3>
+              <ul class="links">
+                <li>
+                  <a href="https://docs.google.com/document/d/13syzHe60EK4fIFnjwRjgyynsu6smLvcfedIE6Hrches/edit">Terms &
+                    Conditions</a>
+                </li>
+                <li>
+                  <a href="https://docs.google.com/document/d/13syzHe60EK4fIFnjwRjgyynsu6smLvcfedIE6Hrches/edit">Privacy
+                    policy</a>
+                </li>
+                <li>
+                  <a href="https://subzero-company.com/security">Security measures</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
-    <!-- ======== footer end ======== -->
 
-    <!-- ======== JS here ======== -->
-    <script src="assets/js/index/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/index/wow.min.js"></script>
-    <script src="assets/js/index/main.js"></script>
-  </body>
+        <div class="row">
+          <div class="col-8 mx-auto text-center mt-1" style="color: white">
+            <a>
+              Copyright ©
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              SubZero
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ======== footer end ======== -->
+
+  <!-- ======== JS here ======== -->
+  <script src="assets/js/index/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/index/wow.min.js"></script>
+  <script src="assets/js/index/main.js"></script>
+</body>
+
 </html>

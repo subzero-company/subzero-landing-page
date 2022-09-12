@@ -762,6 +762,28 @@ p {
   width: 100%;
 }
 
+.hero-section-security {
+  position: relative;
+  z-index: 1;
+  padding: 100px 0 50px;
+  background-image: url("../../img/index/hero/hero-bg.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.hero-section-security .hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.hero-section-security .hero-content p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+
 /* ====== hero-area ===== */
 .hero-section {
   position: relative;
