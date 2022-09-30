@@ -523,12 +523,37 @@
                 </p>
               </div>
               <div class="section-title mb-30">
-                <div class="order-first order-lg-last">
-                  <div class="about-img-2">
-                    <img src="assets/img/index/illustrations/architecture.png" alt="" class="w-100"
-                      style="border-radius: 5px" />
-                  </div>
-                </div>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  SubZero uses the most modern infrastructure for the its technical architecture in order to 
+                  secure customer data and keep the customer journey seamless. The architecture is as follows:
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  1. SSO: The SubZero app is only accessible through the Firebase Auth system, where we support SSO
+                  with both Microsoft and Google. It is also possible to use email and password login, but this requires
+                  email verification.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  2. Webapp: The Webapp is built on Next.js. This makes it possible for the developers
+                  to design modern solutions for our customers.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  3. Serverless cloud functions: SubZero uses Google Cloud Run to be able to deploy and scale in seconds. 
+                  Further, with FastAPI SubZero ensures high performance of the service. This is built on Python. 
+                  The region in question follows SubZero standards and is in Finland (europe-north1), with backups hourly.
+                </p>
+              </div>
+              <div class="section-title mb-30">
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  4. Database: SubZero uses CockroachDB & PostgreSQL. These are hosted in St. Ghislain (europe-west1), in
+                  accordance with the SubZero standards and GDPR compliance. Backups are run hourly. This ensures the security
+                  and integrity of the data of our customers.
+                </p>
               </div>
             </div>
           </div>
